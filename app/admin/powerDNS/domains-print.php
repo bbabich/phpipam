@@ -74,7 +74,6 @@ if ($domains === false) {$Result->show("info alert-absolute", _("No domains conf
 <!-- domains -->
 <?php
 /* prints domain records */
-<<<<<<< HEAD
 foreach ($domains as $d) {
 	// nulls
 	foreach($d as $k=>$v) {
